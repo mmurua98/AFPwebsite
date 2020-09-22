@@ -6,3 +6,11 @@
 ## [1.0.0] - 2020-09-17
 ### Added
 -added files for the project (bootstrap, js, css, html)
+
+## [1.0.0] - 2020-09-20
+### Added
+-Oscar added new section Products
+
+## [1.0.0] - 2020-09-21
+### Changed
+-corrected some mistakes on the Products section
