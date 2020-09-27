@@ -14,3 +14,7 @@
 ## [1.0.0] - 2020-09-21
 ### Changed
 -corrected some mistakes on the Products section
+
+## [1.0.0] - 2020-09-27
+### Added
+-added new section name contact
