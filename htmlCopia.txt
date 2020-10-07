@@ -89,7 +89,7 @@
 	<!--End Home Section-->
 
 	<!--- Start About Section -->
-	<!--<div id="about" class="about">
+	<div id="about" class="about">
         <div class="inner-section">
             <h1>About Us</h1>
             <p class="text">
@@ -103,13 +103,8 @@
                 <button>Contact Us</button>
             </div>
         </div>
-    </div>-->
+    </div>
 	<!--- End Course Section -->
-
-	<!--About Section-->
-	<div id="about">
-		
-	</div>
 
 	<!--Start Portfolio Section-->
 	<div id="products">
