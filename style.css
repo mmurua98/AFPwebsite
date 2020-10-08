@@ -53,7 +53,14 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: url(img/fondoContact.jpg);
+  background: rgba(243,226,199,1);
+background: -moz-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(95,143,76,1) 30%, rgba(182,141,76,1) 51%, rgba(95,143,76,1) 75%, rgba(233,212,179,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(243,226,199,1)), color-stop(30%, rgba(95,143,76,1)), color-stop(51%, rgba(182,141,76,1)), color-stop(75%, rgba(95,143,76,1)), color-stop(100%, rgba(233,212,179,1)));
+background: -webkit-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(95,143,76,1) 30%, rgba(182,141,76,1) 51%, rgba(95,143,76,1) 75%, rgba(233,212,179,1) 100%);
+background: -o-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(95,143,76,1) 30%, rgba(182,141,76,1) 51%, rgba(95,143,76,1) 75%, rgba(233,212,179,1) 100%);
+background: -ms-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(95,143,76,1) 30%, rgba(182,141,76,1) 51%, rgba(95,143,76,1) 75%, rgba(233,212,179,1) 100%);
+background: linear-gradient(to right, rgba(243,226,199,1) 0%, rgba(95,143,76,1) 30%, rgba(182,141,76,1) 51%, rgba(95,143,76,1) 75%, rgba(233,212,179,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3', GradientType=1 );
   background-size: cover;
 }
 .contact .content{
@@ -296,7 +303,20 @@ h3.heading {
   transition-delay: 0.3s;
 }
 
+
+#about p.text-center{
+  font-size: 1.4rem;
+font-style: unset;
+}
+#about .row{
+background-color: black;
+}
+
+
 /*-------------Footer----------*
+
+
+
 
 footer{
   background-color: #505962;
@@ -340,6 +360,3 @@ Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 
 =============*/
-.container {
-  line-height: 20px;
-}
