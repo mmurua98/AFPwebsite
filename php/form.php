@@ -14,7 +14,7 @@
 
         if(mail($to, $subject, $messageBody, $headers)){
             /*echo "<h1>Mensaje enviado correctamete, Nos pondremos en contacto contigo!</h1>";*/
-            header("Location: index.html?messagesend");
+            header("Location: ../index.html?messagesend");
         }
         else{
             echo "Algo ocurrió mal";
