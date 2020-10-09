@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Spartan:wght@400;700&display=swap');
 
 body{
   overflow-x: hidden;
-  font-family: 'Lato', sans-serif;
+  /*font-family: 'Lato', sans-serif;*/
+  font-family: 'Spartan', sans-serif;
   color: #505962;
+  background: black;
 }
 
 /*----Navbar---*/
@@ -37,7 +39,15 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.carousel .carousel-caption h1{
+  font-size: 3rem;
+  color: #23a823;
+  font-weight: bold;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+.carousel .carousel-caption h3{
+  font-size: 1.2rem;
+}
 
 /*----------Contact Form-----------*/
 *{
@@ -53,15 +63,9 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: rgba(243,226,199,1);
-background: -moz-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(95,143,76,1) 30%, rgba(182,141,76,1) 51%, rgba(95,143,76,1) 75%, rgba(233,212,179,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(243,226,199,1)), color-stop(30%, rgba(95,143,76,1)), color-stop(51%, rgba(182,141,76,1)), color-stop(75%, rgba(95,143,76,1)), color-stop(100%, rgba(233,212,179,1)));
-background: -webkit-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(95,143,76,1) 30%, rgba(182,141,76,1) 51%, rgba(95,143,76,1) 75%, rgba(233,212,179,1) 100%);
-background: -o-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(95,143,76,1) 30%, rgba(182,141,76,1) 51%, rgba(95,143,76,1) 75%, rgba(233,212,179,1) 100%);
-background: -ms-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(95,143,76,1) 30%, rgba(182,141,76,1) 51%, rgba(95,143,76,1) 75%, rgba(233,212,179,1) 100%);
-background: linear-gradient(to right, rgba(243,226,199,1) 0%, rgba(95,143,76,1) 30%, rgba(182,141,76,1) 51%, rgba(95,143,76,1) 75%, rgba(233,212,179,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3', GradientType=1 );
-  background-size: cover;
+  /*background: url(bgWood.jpeg);
+  background-size: cover;*/
+  background: rgb(88, 62, 28)
 }
 .contact .content{
   max-width: 800px;
@@ -101,7 +105,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', end
 .container .contactInfo .box .icon{
   min-width: 60px;
   height: 60px;
-  background: #b0d1c3;
+  background: #d3e2dc;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -119,7 +123,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', end
 }
 .container .contactInfo .box .text h3{
   font-weight: 500;
-  color: #00bcd4;
+  color: #abdd96;
+  font-weight: bold;
 }
 
 .contactForm{
@@ -195,16 +200,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', end
 }
 
 /*Mapa*/
-div.mapa{
-  height: 420px;
-  /*background-color: green;*/
+iframe{
+  background-color: black;
 }
-
-
-
-/*============= About SECTION =============*/
-
-
 
 /*============= Jumbotron =============*/
 .jumbotron {
@@ -223,31 +221,24 @@ h3.heading {
   background-color: #1ebba3;
   margin: 0 auto 2rem;
 }
-/*============= Portfolio =============*/
-.portfolio img {
-  max-width: 100%;
 
-}
-.row.no-padding [class*=col-] {
-  padding: 0;
-}
-.portfolio img:hover {
-  transform: scale(1.1);
-  cursor: zoom-in;
-}
-
-.portfolio {
-  overflow: hidden;
-}
-.card {
-  margin: 2rem;
-}
-
-/*--------------Portfolio 2 Miguel------*/
+/*--------------Products------*/
 #products{
+  background: rgb(193, 223, 202);
+}
+#products .headerText h1{
+  font-size: 3rem;
+  color: rgb(43, 19, 19);
+}
+#products .headerText p{
+  font-size: 16px;
+  color: rgb(0, 0, 0)
+}
+.products{
   display: flex;
   justify-content: center;
   align-items: center;
+  background: rgb(193, 223, 202);
 }
 .containerProducts{
   position: relative;
@@ -257,6 +248,10 @@ h3.heading {
   align-items: center;
   flex-wrap: wrap;
   padding: 30px;
+  border-color: #312115;
+  border-width: 10px;
+  border-style: solid;
+  background: rgb(9, 68, 29);
 }
 .containerProducts .card{
   position: relative;
@@ -295,6 +290,7 @@ h3.heading {
   visibility: hidden;
   opacity: 0;
   transition: 0.3s ease-in-out;
+  font-size: 0.9rem;
 }
 .containerProducts .card:hover .content{
   visibility: visible;
@@ -304,59 +300,98 @@ h3.heading {
 }
 
 
-#about p.text-center{
-  font-size: 1.4rem;
-font-style: unset;
+/*About*/
+#about{
+  padding-top: 20px;
+  padding-bottom: 101px;
+  background: rgb(231, 234, 240);
 }
-#about .row{
-background-color: black;
+#about .logo img{
+  position: absolute;
+  left: -1px;
+  top: 81px;
+  width: 74%;
+}
+.fa-play{
+  font-size: 100px;
+}
+
+#about .p-first{
+  margin-bottom: 30px;
+}
+#about .about-img{
+  position: relative;
+  
+}
+#about .about-img{
+  position: relative;  
+}
+.color-3{
+  color: #d6c6b2;
+}
+.text-black{
+  color: rgb(0, 0, 0);
+}
+#about .headerText h2{
+  font-size: 3rem;
+  color: rgb(43, 19, 19);
+}
+.col-md-7 .about-right p{
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 24px;
+  color: #d6c6b2;
 }
 
 
-/*-------------Footer----------*
+/*-------------Footer----------**/
 
-
-
-
+/*Footer*/
 footer{
-  background-color: #505962;
-  color: white;
-  padding: 2rem 0 3rem;
-  margin-top: 1rem;
+  background: #000;
+  padding: 5px 0 0;
 }
-footer img {
-  height: 5rem;
-  margin: 1.5rem 0;
+.sci{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-footer a{
-  color: white  ;
+.sci li{
+  list-style: none;
+  margin: 0 20px;
 }
-footer svg.svg-inline--fa {
-  font-size: 1.6rem;
-  margin: 1.2rem .5rem 0 0;
+.sci li a{
+  color: #777;
+  font-size: 2em;
+  transition: 0.5s;
 }
-footer svg.svg-inline--fa:hover{
-  color: #00bcd4;
+.sci li a:hover{
+  color: #fff;
 }
-hr.socket {
-  border-top: .2rem solid #00bcd4;
-  width: 100%;
+.cpryt{
+  margin-top: 20px;
+  text-align: center;
+  color: #777;
 }
-/*============ BOOTSTRAP BREAK POINTS:
+.cpryt a,
+.cpryt a:hover{
+  color: #777;
+}
 
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
-
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-
-=============*/
+@media (max-width: 992px){
+  footer{
+    background: #000;
+    padding: 0px 0 20px;
+  }
+  .sci li{
+    list-style: none;
+    margin: 0 10px;
+  }
+  .sci li a{
+    color: #777;
+    font-size: 1.5rem;
+    transition: 0.5s;
+  }
+}
