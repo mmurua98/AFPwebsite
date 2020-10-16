@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -234,8 +235,9 @@
 						<span>Escribe tu mensaje...</span>
 					</div>
 					<div class="inputBox">
-						<input type="submit" name="submit" value="Enviar">
+						<input type="submit" name="submit" id="submit" value="Enviar">
 					</div>
+					<span id="successMessage"> </span>			
 				</form>
 			</div>
 		</div>
@@ -243,6 +245,7 @@
 
 	<!--Map Section-->
 	<div id="mapa" class="googlemap">
+		<div class="overlay" onClick="style.pointerEvents='none' "></div>
 		<iframe
 			src="https://www.google.com/maps/embed?pb=!4v1601230787520!6m8!1m7!1s_KJUXFWfQQTBWhS_qJtVQA!2m2!1d31.28066845973927!2d-110.9412708973745!3f201.43891280810436!4f-1.8468008792086152!5f0.7820865974627469"
 			width="100%" height="420" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
@@ -282,6 +285,7 @@
 	<script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
 	<script src="https://use.fontawesome.com/releases/v5.6.1/js/all.js"></script>
 	<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="js/script.js"></script>
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 	<script>

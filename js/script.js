@@ -1,10 +1,10 @@
 
-/*var map = L.map('mapa').setView([31.28926, -110.937796], 17);
+/*Bloquear scroll si no se le hace click dentro del mapa*/
 
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-}).addTo(map);
+ $('.googlemap').click(function () {
+    $('.googlemap iframe').css("pointer-events", "auto");
+});
 
-
-var marker = L.marker([31.28926, -110.937796], 17).addTo(map);
-marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();*/
+$( ".googlemap" ).mouseleave(function() {
+  $('.googlemap iframe').css("pointer-events", "none"); 
+});

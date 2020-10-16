@@ -233,6 +233,15 @@ body {
 /*Mapa*/
 iframe {
   background-color: black;
+  pointer-events: none;
+}
+.overlay {
+  background:transparent; 
+  position:relative; 
+  width:640px;
+  height:480px; /* your iframe height */
+  top:480px;  /* your iframe height */
+  margin-top:-480px;  /* your iframe height */
 }
 
 /*============= Jumbotron =============*/

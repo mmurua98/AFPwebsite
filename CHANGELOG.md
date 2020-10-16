@@ -22,3 +22,13 @@
 ## [1.0.0] - 2020-10-03
 ### Changed
 -changed the products section
+
+## [1.0.0] - 2020-10-16
+### Added
+-added js to block map until you click on it
+-added css to block map on scrolling
+
+## [1.0.0] - 2020-10-16
+### Changed
+-changed index.html to index.php
+-changes form.php
