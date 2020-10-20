@@ -214,6 +214,7 @@ body {
 @media (max-width: 991px) {
   .contact {
     padding: 50px;
+    padding-top: 150px;
   }
 
   .container {
@@ -267,6 +268,7 @@ h3.heading {
 /*--------------Products------*/
 #products {
   background: rgb(193, 223, 202);
+  padding-top: 80px;
 }
 
 #products .headerText h1 {
@@ -360,7 +362,7 @@ h3.heading {
 
 /*About*/
 #about {
-  padding-top: 20px;
+  padding-top: 80px;
   padding-bottom: 101px;
   background: rgb(231, 234, 240);
 }
