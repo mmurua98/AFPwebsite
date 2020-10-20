@@ -29,7 +29,7 @@
 		<!--Navigation-->
 		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
 
-			<a href="index.html" class="navbar-brand">
+			<a href="#home" class="navbar-brand">
 				<img src="img/AFPlogo.png" alt="logo">
 			</a>
 
