@@ -29,7 +29,7 @@
 		<!--Navigation-->
 		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
 
-			<a href="#home" class="navbar-brand">
+			<a href="index.php" class="navbar-brand">
 				<img src="img/AFPlogo.png" alt="logo">
 			</a>
 
@@ -40,7 +40,7 @@
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
-						<a href="#home" class="nav-link">Inicio</a>
+						<a href="index.php" class="nav-link">Inicio</a>
 					</li>
 					<li class="nav-item">
 						<!-- <a href="#about" class="nav-link">Nosotros</a> -->
@@ -51,8 +51,12 @@
 						Productos
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="#">Carretes</a>
-							<a class="dropdown-item" href="#">Núcleos</a>
+							<a class="dropdown-item" href="products/carretes_madera.php">Carretes de madera</a>
+							<a class="dropdown-item" href="products/carretes_triplay.php">Carretes de triplay</a>
+							<a class="dropdown-item" href="products/carretes_plastico.php">Carretes de plástico</a>
+							<a class="dropdown-item" href="products/carretes_reciclado.php">Carretes reciclados</a>
+							<a class="dropdown-item" href="products/cajas_madera.php">Cajas de madera</a>
+							<a class="dropdown-item" href="products/nucleo_papel.php">Núcleos de papel</a>
 						</div>
 					</li>
 					<!-- <li class="nav-item">

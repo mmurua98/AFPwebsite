@@ -502,3 +502,78 @@ footer {
 .carousel-item-prev {
   display: block;
 }*/
+
+/*---------------------------------------------*/
+
+/*Pagina de Carretas de Madera*/
+#reel {
+  padding-top: 80px;
+  padding-bottom: 101px;
+  background: rgb(231, 234, 240);
+}
+
+#reel .logo img {
+  position: absolute;
+  left: -1px;
+  top: 81px;
+  width: 74%;
+}
+
+.fa-play {
+  font-size: 100px;
+}
+
+#reel .p-first {
+  margin-bottom: 30px;
+}
+
+#reel .reel-img {
+  position: relative;
+}
+
+.color-3 {
+  color: #d6c6b2;
+}
+
+.text-black {
+  color: rgb(0, 0, 0);
+  text-align: justify;
+}
+
+#reel .headerText h2 {
+  font-size: 3rem;
+  color: rgb(43, 19, 19);
+}
+
+.col-md-7 .reel-right p {
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 24px;
+  color: #d6c6b2;
+}
+
+@media (max-width: 992px) {
+  #reel .logo img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 375px) {
+  #reel {
+    /*padding-top: 20px;*/
+    padding-bottom: 30px;
+  }
+
+  #reel .logo img {
+    width: 10%;
+  }
+
+  /*#about .p-first{
+    text-align: center!important;
+    font-size: 18px;
+  }*/
+  #reel .text-black {
+    text-align: center !important;
+    font-size: 16px;
+  }
+}

@@ -22,3 +22,7 @@
 ## [1.0.0] - 2020-10-03
 ### Changed
 -changed the products section
+
+## [1.0.0] - 2020-11-10
+### Changed
+-changed all the structure of the website
