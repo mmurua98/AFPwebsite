@@ -6,6 +6,9 @@
 				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
 				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
 			</ol>
 			<div class="carousel-inner">
 				<div class="carousel-item active">
@@ -20,14 +23,35 @@
 					<img class="d-block w-100" src="img/slider/reel_slider.jpg" alt="Second slide">
 					<div class="carousel-caption text-center">
 						<!-- <h1>Carretes</h1> -->
-						<a href="#" class="btn btn-primary btn-lg">Carretes</a>
+						<!-- <a href="#" class="btn btn-primary btn-lg">Carretes</a> -->
 					</div>
 				</div>
 				<div class="carousel-item">
 					<img class="d-block w-100" src="img/slider/papercore_slider.jpg" alt="Third slide">
 					<div class="carousel-caption text-center">
 						<!-- <h1>Carretes</h1> -->
-						<a href="#" class="btn btn-primary btn-lg">Núcleos</a>
+						<!-- <a href="#" class="btn btn-primary btn-lg">Núcleos</a> -->
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="img/slider/slider1.jpg" alt="Third slide">
+					<div class="carousel-caption text-center">
+						<!-- <h1>Carretes</h1> -->
+						<!-- <a href="#" class="btn btn-primary btn-lg">Núcleos</a> -->
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="img/slider/slider2.png" alt="Third slide">
+					<div class="carousel-caption text-center">
+						<!-- <h1>Carretes</h1> -->
+						<!-- <a href="#" class="btn btn-primary btn-lg">Núcleos</a> -->
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="img/slider/slider3.jpg" alt="Third slide">
+					<div class="carousel-caption text-center">
+						<!-- <h1>Carretes</h1> -->
+						<!-- <a href="#" class="btn btn-primary btn-lg">Núcleos</a> -->
 					</div>
 				</div>
 			</div>
@@ -79,19 +103,37 @@
 		</div>
 	</section>
 
-
+	<!--Start Text Section-->
+	<section class="texto">
+		<div class="container">
+			<div class="row">
+				<div class="offset-sm-2 col-sm-8">
+					<div class="headerText text-center">
+						<h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">Continuamente tenemos una mentalidad centrada en el cliente</h1>
+						<br>
+						<p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="125">
+							Nuestros principales objetivos y responsabilidades se encuentran en la entrega de 
+							los mejores productos finales posibles a nuestros valiosos clientes. 
+							Al utilizar materiales de la más alta calidad y emplear trabajadores calificados, 
+							el objetivo de Anderson Forest Products es satisfacer sus necesidades.</p>
+					</div>
+				</div>
+				<br>
+			</div>
+		</div>
+	</section>
 
 	<!--Start Products Section-->
 	<div class="row" id="products">
 		<div class="offset-sm-2 col-sm-8">
 			<div class="headerText text-center">
 				<h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">Productos</h1>
-				<p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">Ofrecemos productos personalizados a
+				<p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="140">Ofrecemos productos personalizados a
 					nuestros clientes para sus necesidades específicas.</p>
 			</div>
 		</div>
 	</div>
-	<div class="products">
+	<!-- <div class="products">
 
 		<div class="containerProducts" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150">
 
@@ -151,12 +193,105 @@
 				</div>
 			</div>
 		</div>
+	</div> -->
+	<div class="products">
+		<div class="containerSliderProducts">
+			<!--slider------------------->
+			<ul id="autoWidth" class="cs-hidden">
+				<!--1------------------------------>
+				<li class="item-a">
+					<!--slider-box-->
+					<div class="boxSlider">
+						<p class="marvel">Carretes de madera</p>
+						<!--model-->
+						<img class="model" src="img/portfolio/wood-reels.jpg">
+						<!-- <button class="btn btn-link">VER MAS</button> -->
+						<a href="products/carretes_madera.php" class="btn btn-info" role="button">Ver más</a>
+						<!--details-->
+						<div class="details">
+							<p>Carretes de madera personalizados de calidad de manera oportuna y rentable.</p>
+						</div>
+					</div>
+				</li>
+				<!--2------------------------------>
+				<li class="item-a">
+					<!--slider-box-->
+					<div class="boxSlider">
+						<p class="marvel">Carretes de triplay</p>
+						<!--model-->
+						<img class="model" src="img/portfolio/plywood_reels.jpg">
+						<!--details-->
+						<a href="products/carretes_triplay.php" class="btn btn-info" role="button">Ver más</a>
+						<div class="details">
+							<p>Para productores de alambres, cables, cuerdas, aplicación hidráulica, industrial y más.</p>
+						</div>
+					</div>
+				</li>
+				<!--3------------------------------>
+				<li class="item-a">
+					<!--slider-box-->
+					<div class="boxSlider">
+						<p class="marvel">Carretes de plástico</p>
+						<!--model-->
+						<img class="model" src="img/portfolio/plastic_reels.jpg">
+						<!--details-->
+						<a href="products/carretes_plastico.php" class="btn btn-info" role="button">Ver más</a>
+						<div class="details">
+							<p>Solución de embalaje para productores de monofilamento y alambre aislado.</p>
+						</div>
+					</div>
+				</li>
+				<!--4------------------------------>
+				<li class="item-a">
+					<!--slider-box-->
+					<div class="boxSlider">
+						<p class="marvel">Cajas de madera</p>
+						<!--model-->
+						<img class="model" src="img/portfolio/wood-crates.jpg">
+						<!--details-->
+						<a href="products/cajas_madera.php" class="btn btn-info" role="button">Ver más</a>
+						<div class="details">
+							<p>Empaque su productos de forma segura con nuestras cajas de madera.</p>
+						</div>
+					</div>
+				</li>
+				<!--5------------------------------>
+				<li class="item-a">
+					<!--slider-box-->
+					<div class="boxSlider">
+						<p class="marvel">Núcleos de papel</p>
+						<!--model-->
+						<img class="model" src="img/portfolio/paper_crates.jpg">
+						<!--details-->
+						<a href="products/nucleo_papel.php" class="btn btn-info" role="button">Ver más</a>
+						<div class="details">
+							<p>Fabricámos nuestros propios tubos de papel para ofrecer el precio más bajo posible.</p>
+						</div>
+					</div>
+				</li>
+				<!--6------------------------------>
+				<li class="item-a">
+					<!--slider-box-->
+					<div class="boxSlider">
+						<p class="marvel">Carretes reciclados</p>
+						<!--model-->
+						<img class="model" src="img/portfolio/recycled_reels.jpg">
+						<!--details-->
+						<a href="products/carretes_reciclado.php" class="btn btn-info" role="button">Ver más</a>
+						<div class="details">
+							<p>Reciclamos carretes y partes de carretas que tienen poco uso y se pueden restaurar.</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
 	</div>
+	
 
 	<!--Start Contact Section-->
-	<div id="contact" class="contact">
+	<!-- <div id="contact" class="contact">
 
-		<div class="content" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150">
+		<div class="content" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="175">
 			<h2>Contáctanos</h2>
 			<p>Estamos interesados en crear una relación de negocios y de oportunidades de empleo.</p>
 		</div>
@@ -207,21 +342,21 @@
 					<div class="inputBox">
 						<input type="submit" name="submit" id="submit" value="Enviar">
 					</div>
-					<span id="successMessage"> </span>			
+					<span id="successMessage"> </span>
 				</form>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 	<!--Map Section-->
-	<div id="mapa" class="googlemap">
+	<!-- <div id="mapa" class="googlemap">
 		<div class="overlay" onClick="style.pointerEvents='none' "></div>
 		<iframe
 			src="https://www.google.com/maps/embed?pb=!4v1601230787520!6m8!1m7!1s_KJUXFWfQQTBWhS_qJtVQA!2m2!1d31.28066845973927!2d-110.9412708973745!3f201.43891280810436!4f-1.8468008792086152!5f0.7820865974627469"
 			width="100%" height="420" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
 			tabindex="0">
 		</iframe>
-	</div>
+	</div> -->
 	<!--End Map Section-->
 
 	<?php include 'includes/footer.php' ?>

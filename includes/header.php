@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="css/fixed.css">
+	<link rel="stylesheet" type="text/css" href="css/lightslider.css"/>
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link
@@ -18,6 +19,7 @@
 		rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
 		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/lightslider.css"/>
 	<meta name="description" content="Lo mejor en productos de madera!" />
 	<meta name="robots" content="index, follow">
 </head>

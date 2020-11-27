@@ -26,3 +26,7 @@
 ## [1.0.0] - 2020-11-10
 ### Changed
 -changed all the structure of the website
+
+## [1.0.0] - 2020-11-27
+### Changed
+-changed index

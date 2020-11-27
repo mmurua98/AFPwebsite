@@ -34,8 +34,39 @@
 				</div>
 			</div>
 		</div>
+
+		<div class="bodyContainerAbout">
+			<!-- <h1>Our Services</h1> -->
+			<div class="containerAbout">
+				<div class="cardAbout">
+					<span></span>
+					<h3>Nuestra meta</h3>
+					<p>Nuestros principales objetivos y responsabilidades se basan en la mejor entrega posible de productos terminados 
+						a nuestros clientes. Utilizando la mas alta calidad en materiales, y empleando personal calificado. 
+						La meta de Anderson Forest Products es cubrir sus necesidades.</p>
+				</div>
+				<div class="cardAbout">
+					<span></span>
+					<h3>Sin dejar huella</h3>
+					<p>Anderson Forest Products, es consciente de la preservacion de un brillante futuro para las generaciones venideras. 
+						Razon por la cual se compromete la utilizacion de procesos de manufactura de ahorro de energia, 
+						y el reciclaje en dichos procesos. Contactenos para aprender mas, acerca de como trabajar juntos 
+						para reducir el impacto negativo al ecosistema.</p>
+				</div>
+				<div class="cardAbout">
+					<span></span>
+					<h3>Factores clave</h3>
+					<p>En el negocio por mas de 5 decadas
+						Un promedio de 200 empleados en 3 ubicaciones
+						Atendemos negocios desde Chicos hasta Grandes, incluyendo clientes de Fortune 100
+						Enfoque dirigido al cliente</p>
+				</div>
+			</div>
+		</div>
+
 	</section>
 
+	
 
 
 
