@@ -30,3 +30,7 @@
 ## [1.0.0] - 2020-11-27
 ### Changed
 -changed index
+
+## [1.0.0] - 2020-11-30
+### Changed
+-changed index (about)

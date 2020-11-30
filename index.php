@@ -79,23 +79,28 @@
 				</div>
 				<div class="col-md-5">
 					<div class="about-img" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
-						<img class="logo" src="img/about_opt.jpg" alt="">
+						<img class="logo" src="img/normaAFP.jpg" alt="">
+					</div>
+					<div class="about-img" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+						<img class="logo" src="img/normaAFP2.png" alt="">
 					</div>
 				</div>
 				<br>
 				<div class="col-md-7 about-right" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
 
 					<p class="p-first text-black">
-						Anderson Forest products, es un fabricante de productos de Madera de alta calidad,
-						basado en especificaciones.
+						Utilizando la última tecnología, creamos productos de madera con especificaciones de alta calidad.
 					</p>
 					<p class="text-black">
-						Nuestros productos más solicitados son los carretes y tarimas,
-						los cuales están disponibles tanto en madera sólida, madera contrachapada y plástico.
+						Estos incluyen, entre otros, carretes con corte y perforación de precisión, carretes de plástico y más.
+						Nuestra operación incluye maquinado CNC, hornos secos, desempolvadores, varios tipos de sierras 
+						y enrutadores, y una flota de envío de servicio completo.
 					</p>
 					<p class="text-black">
-						También podemos fabricar una gran variedad de productos personalizados.
-						Solo preguntenos si podemos hacerlo!
+						Nos esforzamos por servir a nuestros clientes de la manera más eficiente posible.
+					</p>
+					<p class="text-black">
+						<a href="about.php" class="btn btn-info" role="button">Ver más</a>
 					</p>
 
 				</div>
@@ -265,7 +270,7 @@
 						<!--details-->
 						<a href="products/nucleo_papel.php" class="btn btn-info" role="button">Ver más</a>
 						<div class="details">
-							<p>Fabricámos nuestros propios tubos de papel para ofrecer el precio más bajo posible.</p>
+							<p>Fabricamos nuestros propios tubos de papel para ofrecer el precio más bajo posible.</p>
 						</div>
 					</div>
 				</li>
