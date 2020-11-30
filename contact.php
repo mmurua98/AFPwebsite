@@ -4,6 +4,7 @@
 <div id="contact" class="contact">
 
     <div class="content" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150">
+    <br><br><br>
         <h2>Contáctanos</h2>
         <p>Estamos interesados en crear una relación de negocios y de oportunidades de empleo.</p>
     </div>
