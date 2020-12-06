@@ -16,43 +16,23 @@
 					<div class="carousel-caption text-center">
 						<h1>Anderson Forest Products</h1>
 						<h3>Ofreciendo productos de madera de calidad desde 1967 </h3>
-						<a href="#contact" class="btn btn-outline-light btn-lg">Contacto</a>
+						<a href="contact.php" class="btn btn-outline-light btn-lg">Contacto</a>
 					</div>
 				</div>
 				<div class="carousel-item">
 					<img class="d-block w-100" src="img/slider/reel_slider.jpg" alt="Second slide">
-					<div class="carousel-caption text-center">
-						<!-- <h1>Carretes</h1> -->
-						<!-- <a href="#" class="btn btn-primary btn-lg">Carretes</a> -->
-					</div>
 				</div>
 				<div class="carousel-item">
 					<img class="d-block w-100" src="img/slider/papercore_slider.jpg" alt="Third slide">
-					<div class="carousel-caption text-center">
-						<!-- <h1>Carretes</h1> -->
-						<!-- <a href="#" class="btn btn-primary btn-lg">Núcleos</a> -->
-					</div>
 				</div>
 				<div class="carousel-item">
-					<img class="d-block w-100" src="img/slider/slider1.jpg" alt="Third slide">
-					<div class="carousel-caption text-center">
-						<!-- <h1>Carretes</h1> -->
-						<!-- <a href="#" class="btn btn-primary btn-lg">Núcleos</a> -->
-					</div>
+					<img class="d-block w-100" src="img/slider/slider1.jpg" alt="Fourth slide">
 				</div>
 				<div class="carousel-item">
-					<img class="d-block w-100" src="img/slider/slider2.png" alt="Third slide">
-					<div class="carousel-caption text-center">
-						<!-- <h1>Carretes</h1> -->
-						<!-- <a href="#" class="btn btn-primary btn-lg">Núcleos</a> -->
-					</div>
+					<img class="d-block w-100" src="img/slider/slider2.png" alt="Fifth slide">
 				</div>
 				<div class="carousel-item">
-					<img class="d-block w-100" src="img/slider/slider3.jpg" alt="Third slide">
-					<div class="carousel-caption text-center">
-						<!-- <h1>Carretes</h1> -->
-						<!-- <a href="#" class="btn btn-primary btn-lg">Núcleos</a> -->
-					</div>
+					<img class="d-block w-100" src="img/slider/slider3.jpg" alt="Sixth slide">
 				</div>
 			</div>
 			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

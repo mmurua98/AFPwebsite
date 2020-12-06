@@ -30,22 +30,18 @@
 	<div id="home">
 		<!--Navigation-->
 		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-
 			<a href="index.php" class="navbar-brand">
 				<img src="img/AFPlogo.png" alt="logo">
 			</a>
-
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
 						<a href="index.php" class="nav-link">Inicio</a>
 					</li>
 					<li class="nav-item">
-						<!-- <a href="#about" class="nav-link">Nosotros</a> -->
 						<a href="about.php" class="nav-link">Nosotros</a>
 					</li>
 					<li class="nav-item dropdown">
@@ -61,15 +57,10 @@
 							<a class="dropdown-item" href="products/nucleo_papel.php">Núcleos de papel</a>
 						</div>
 					</li>
-					<!-- <li class="nav-item">
-						<a href="#products" class="nav-link">Productos</a>
-					</li> -->
 					<li class="nav-item">
 						<!-- <a href="#contact" class="nav-link">Contacto</a> -->
 						<a href="contact.php" class="nav-link">Contacto</a>
 					</li>
-
 				</ul>
 			</div>
-
 		</nav>
